@@ -1,0 +1,246 @@
+
+
+    *{
+       font-family: Montserrat,sans-serif;
+       max-width: 100%;
+    }
+   #header{
+   
+   height:40px;
+   background-color:#f3f3f3;
+   font-size:15px;
+   padding:10px;
+   color:#494949;
+  
+   }
+
+
+
+   .border-side{
+   	  border-right: 2px solid #C4C4C4;
+   }
+
+   a {
+   	 color: inherit;
+    
+   }
+    a:hover{
+    	color:rgb(240,0,122);
+      text-decoration: none;
+    }
+
+   .header_icon{
+   	border-radius: 1000px;
+   	background-color: rgb(0,0,108);
+   	width:60px;
+   	height:60px;
+   	align-content: center;
+   	padding-left:23px;
+   	padding-top: 23px;
+   	padding-bottom: 20px;
+   }
+
+   #header2{
+   	 font-size: 13px;
+   	 padding-left:500px;
+
+   }
+  .title{
+  	 font-size:42px;
+  	 padding-top:15px;
+     color:rgb(0,0,108);
+     font-family: 'Mogra',cursive;
+  }
+@media only screen and (max-width: 750px){
+  .attract {
+      display: none;
+   }
+}
+
+@media only screen and (min-width: 750px){
+.attract-small{
+    display: none;
+   }
+}
+
+  .subtitle{
+  	 font-size:15px;
+  	 margin-top:-10px;
+  	 color:rgb(240,0,122);
+  	 font-weight:bold;
+  }
+ .title_img {
+ 	 margin-top:-20px;
+ }
+
+ #page_title{
+ 	  margin-left:30px;
+ }
+
+ #services {
+ 	 font-size:16px;
+ 	 margin-left: 35%;
+   margin-right: 10%;
+
+ } 
+
+  #services a{
+  	 margin-right:20px;
+  	 margin-top:-10px;
+      font-family: 'Mogra',cursive;
+  }
+
+  .horoscope_title{
+  	 font-size: 35px;
+  	 text-align: center;
+  	 color:rgb(240,0,122);
+  	 margin-top:20px;
+     border-bottom: 4px solid #C4C4C4;
+
+  }
+
+  .horoscope_title2{
+  	 text-align: center;
+  	 font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .box-icon{
+  	  height:125px;
+      background-color: rgb(184, 181, 210);
+  	 padding-left: 33px;
+     margin-left: -5px;
+  	  border-radius: 10px;
+      font-size: 12px;
+     margin-top: 5px;
+
+  }
+
+  #horoscope1 .col-md-2{
+    margin-left: 40px;
+    width:150px;
+  }
+#horoscope1 p{
+	text-align: left;
+	padding: 0px;
+}
+#horoscope1 .header_icon{
+	padding-left: 20px;
+	padding-top:20px;
+
+}
+
+.w3-button{
+	  width:75px;
+	  height:75px;
+	 position: absolute;
+   background-color: rgb(166,149,180);
+   margin-top: -350px;
+
+  
+}
+.w3-display-right{
+	 margin-left: 1265px;
+}
+.w3-display-left{
+	margin-left: 10px;
+}
+.slider{
+height:520px;
+	margin-bottom: 200px;
+}
+
+.slider-background{
+	position:relative;
+  width:1350px;
+  height: 720px;
+
+}
+
+.EN-dropdown{
+	position: relative;
+	display: inline-block;
+
+}
+
+.EN-dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: rgb(198,198,255);
+	box-shadow: 0px 8px 16px 0px;
+	padding:10px;
+	line-height: 40px;
+}
+
+.Pages-dropdown{
+	position: relative;
+	display: inline-block;
+
+}
+
+.Pages-dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: rgb(198,198,255);
+	box-shadow: 0px 8px 16px 0px;
+	padding:10px;
+	line-height: 40px;
+  width: 200px;
+}
+
+.dropdown-element:hover {
+   background-color:rgb(0,0,108);
+}
+
+.header-links:hover{
+   color:rgb(253,0,84);
+   box-shadow: 5
+}
+
+.header-links
+{
+  font-family: 'Mogra',cursive;
+}
+
+.header_icon:hover{
+    background-color: rgb(253,0,84);
+    box-shadow: 5px;
+
+}
+
+#Life_partner{
+  margin-top: 50px;
+  margin-left: -100px;
+    height:200px;
+    width:1350px;
+  background-color: rgb(113, 169, 174);
+
+}
+
+.match:hover{
+   background-color: red;
+}
+
+.calender_box {
+   border: 2px solid rgb(113, 169, 174);
+   height: 50px;
+
+   font-size: 18px;
+}
+
+.data-entry:hover{
+    background-color: rgb(84, 108, 249);
+}
+
+.Field{
+   margin-top: 10px;
+}
+
+.data-full{
+   background-color: rgb(179, 206, 228);
+}
+
+.contact:hover{
+
+   color:red;
+}
